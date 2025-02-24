@@ -1,0 +1,57 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    overflow: hidden;
+    height: 500px;
+    width: 960px;
+    display: grid;
+    margin:0 auto;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .grid-item {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  #reset
+  {
+    margin-bottom:20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    background-color:#fff;
+    padding:7px 12px;
+    border-radius:10px;
+    text-align:center;
+    font-size:17px;
+  }
+
+#start
+  {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    background-color:#fff;
+    padding:7px 12px;
+    margin-right:10px;
+    border-radius:10px;
+    font-size:17px;
+  }
+.button-div
+{
+    text-align:center;
+}
+  #start:hover, #start:focus,#reset:hover, #reset:focus
+  {
+    background-color:#6661d4;
+    color:#fff;  
+  }
+
+  h1
+  {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    text-align:center;
+  }
